@@ -1,0 +1,16 @@
+!.emacs.d/elisp/my-functions.el
+!.emacs.d/elisp/growlnotify.sh
+.emacs.d/elisp/*
+.emacs.d/themes/*
+.emacs.d/semanticdb/*
+.emacs.d/image-dired/*
+.emacs.d/geben/*
+.emacs.d/auto-save-list/*
+.emacs.d/tramp
+.emacs.d/srecode-map.el
+.emacs.d/openssl.sh
+.emacs.d/notes
+.emacs.d/eflymake.erl
+.emacs.d/ede-projects.el
+.emacs.d/bookmarks
+.emacs.d/.emacs.desktop

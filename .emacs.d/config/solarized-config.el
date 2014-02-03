@@ -1,0 +1,20 @@
+;; ------------------Solarized theme----------------------
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
+(defun solarized-dark-theme-load ()
+  (interactive)
+  (load-theme 'solarized-dark)
+  (set-face-background 'whitespace-tab nil)
+;;  (set-face-background 'whitespace-tab "#002b36")
+  (set-face-foreground 'whitespace-tab "#586e75")
+;;  (set-face-background 'whitespace-space "#002b36")
+  (set-face-background 'whitespace-space nil)
+  (set-face-foreground 'whitespace-space "#586e75")
+  (set-face-background 'hide-region-before-string-face "#586e75")
+  (set-face-background 'hide-region-after-string-face "#586e75")
+  (set-face-foreground 'hide-region-before-string-face "#073642")
+  (set-face-foreground 'hide-region-after-string-face "#073642")
+  (message "Solarized-dark theme enabled.")
+  )
+
+(provide 'solarized-config)

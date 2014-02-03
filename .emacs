@@ -54,4 +54,5 @@
 ;; (require 'mysql-config)       ;; mysql-mode
 (require 'tramp-config)          ;; tramp
 (require 'saveplace-config)      ;; when you visit a file, point goes to the last place where it was when you previously visited the same file.
+(require 'org-mode-config)       ;; org-mode + babel + ledger
 (require 'shortcuts-config)      ;; shortcuts

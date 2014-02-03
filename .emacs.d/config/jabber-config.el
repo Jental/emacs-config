@@ -1,22 +1,13 @@
 ;; ------------------Jabber ----------------------
 
 (add-to-list 'load-path "~/.emacs.d/elisp/emacs-jabber")
-(add-to-list 'load-path "~/.emacs.d/elisp/emacs-jabber/compat")
-(require 'jabber)
-;;
+
 (require 'jabber-autoloads)
 
-(setq
-   jabber-username "jentalmeister"
-;;   ssl-program-name "openssl"
-   jabber-server "gmail.com"
-   jabber-network-server "talk.google.com"
-   jabber-port 443
-   jabber-connection-type 'ssl
-;;   jabber-connection-ssl-program 'gnutls
-   jabber-history-enabled t
-   jabber-use-global-history nil
-   )
+(setq starttls-extra-arguments '("--insecure"))
+(setq gnutls-min-prime-bits 1024)
+(setq gnutls-log-level 0)
+(defun gnutls-available-p nil) ;; Forcefully use starttls (Fixes "STARTTLS negotiation failed" problem)
 
 ;; Make jabber.el notify through growl when I get a new message
 (setq jabber-message-alert-same-buffer nil)

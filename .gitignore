@@ -1,6 +1,6 @@
+.emacs.d/elisp/*
 !.emacs.d/elisp/my-functions.el
 !.emacs.d/elisp/growlnotify.sh
-.emacs.d/elisp/*
 .emacs.d/themes/*
 .emacs.d/semanticdb/*
 .emacs.d/image-dired/*

@@ -1,0 +1,1 @@
+c:/Program\ Files/Growl\ for\ Windows/growlnotify.com /t:$2 /a:emacs /n:$1 /id:$3 $4 

@@ -15,7 +15,7 @@
 (put 'erase-buffer 'disabled nil)
 (put 'upcase-region 'disabled nil)
 
-(setq shell-file-name "d:/cygwin/bin/bash.exe") ;; cygwin bash as a shell
+;; (setq shell-file-name "d:/cygwin/bin/bash.exe") ;; cygwin bash as a shell
 
 (add-to-list 'load-path "~/.emacs.d/elisp")
 
@@ -26,17 +26,17 @@
 
 (require 'locale-config)         ;; localiztion
 ;;(require 'erlang-config)       ;; erlang-mode
-(require 'flymake-config)        ;; flymake
+;; (require 'flymake-config)     ;; flymake
 (require 'whitespace-config)     ;; whitespace-mode
 (require 'elisp-config)          ;; emacs-lisp-mode
-(require 'fsharp-config)         ;; fsharp-mode
-(require 'growl-config)          ;; growl notifications
-(require 'jabber-config)         ;; jabber.el
-(require 'juick-config)          ;; juick functions
+;; (require 'fsharp-config)      ;; fsharp-mode
+;; (require 'growl-config)       ;; growl notifications
+;; (require 'jabber-config)      ;; jabber.el
+;; (require 'juick-config)       ;; juick functions
 (require 'notes-config)          ;; *notes* buffer
-(require 'csharp-config)         ;; csharp-mode
-(require 'yarl-config)           ;; yarl-mode
-(require 'haskell-config)        ;; haskell-mode
+;; (require 'csharp-config)      ;; csharp-mode
+;; (require 'yarl-config)        ;; yarl-mode
+;; (require 'haskell-config)     ;; haskell-mode
 (require 'coffee-config)         ;; coffee-mode
 (require 'hide-region-config)    ;; hide-region (my version)
 (require 'solarized-config)      ;; solarized theme
@@ -55,4 +55,5 @@
 (require 'tramp-config)          ;; tramp
 (require 'saveplace-config)      ;; when you visit a file, point goes to the last place where it was when you previously visited the same file.
 (require 'org-mode-config)       ;; org-mode + babel + ledger
+(require 'rect-mark-config)      ;; rectangular regions
 (require 'shortcuts-config)      ;; shortcuts
